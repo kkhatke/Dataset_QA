@@ -3,7 +3,7 @@ Dataset Quality Assessment Streamlit application
 
 Streamlit application code that performs data quality assessment (DQA) on a CSV dataset. The application allows users to upload a CSV file, analyze the dataset, and generate a DQA report. The report includes information about column data types, counts of numerical values, NaN values, unique values, and special characters. Users can also change the data type of columns, remove duplicate rows, and download the updated dataset along with the DQA report.
 
-The application is well-structured and interactive, providing a user-friendly interface for performing data quality analysis. It's important to note that this application requires the Streamlit library to run.
+It's important to note that this application requires the Streamlit library to run.
 
 Here's a breakdown of the main components and functionalities of the code:
 
@@ -27,4 +27,4 @@ Download Updated Dataset: Users can download the updated dataset after making ch
 
 Save DQA Report: A DQA report is generated and saved to a text file. Users can download the DQA report using a separate download link.
 
-The code is well-documented and organized, making it easy to understand and modify. It provides a useful tool for data analysts and practitioners to quickly assess and improve the quality of their datasets. To run this code, make sure you have the Streamlit library installed (pip install streamlit), and then execute the script using the command streamlit run your_script.py in your terminal.
+It provides a useful tool for data analysts and practitioners to quickly assess and improve the quality of their datasets. To run this code, make sure you have the Streamlit library installed (pip install streamlit), and then execute the script using the command streamlit run your_script.py in your terminal.
